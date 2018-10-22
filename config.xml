@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.app.pitagora"
+versionCode = "10"
+version = "1.0" >
+
+<!-- versionCode is optional and Android only -->
+
+<name>PitagorApp</name>
+
+<description>
+App per il calcolo dell'ipotenusa conoscendo
+la misura dei cateti.
+</description>
+
+<author email="alessandro.visigalli@canossamilano.org">
+Alessandro Visigalli
+</author>
+
+<platform name="android" />
+
+<icon src="icona.png" platform="android" qualifier="ldpi" />
+<icon src="icona.png" platform="android" qualifier="mdpi" />
+<icon src="icona.png" platform="android" qualifier="hdpi" />
+
+<access origin="*" />
+<plugin name="cordova-plugin-whitelist" source="npm" />
+<!-- abilita links esterni -->
+<allow-navigation href="*://*getskeleton.com/*" />
+</widget>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang=it>
+<head>
+    <title>PitagorApp</title>
+	<link rel=stylesheet href=http://getskeleton.com/dist/css/skeleton.css>
+	<script src=funzioni.js> </script>
+	<meta charset=utf-8>
+</head>
+<body>
+<div class=container>
+    <div class=row>
+<div class="twelve columns">
+<h1>Calcola l'Ipotenusa</h1>
+<p>Inserisci le misure dei cateti e premi "Calcola"</p>
+<form name=pitagora>
+<label for="c1">Misura del primo cateto</label>
+<input class="u-full-width" placeholder="misura" name=c1 type=number required min=0.01 step=0.01>
+<label for="c2">Misura del secondo cateto</label>
+<input class="u-full-width" placeholder="misura" name=c2 type=number required min=0.01 step=0.01>
+<br>
+<input type=button onclick=calcolo() class="button-primary u-full-width" value=calcola> 
+<input type=reset onclick=cancella() class=u-full-width value=Annulla>
+<p id=risultato> </p>
+</form>
+
+
+    </div>
+</div>
+    </div>
+</body>
+</html>
+
